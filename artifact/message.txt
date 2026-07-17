@@ -1,2 +1,1 @@
-COMP1023 DevOps Artifact
-Milestone 1 update by Tyler Neale
+COMP1023 Artifact
