@@ -1,0 +1,19 @@
+name: CI Workflow
+ 
+on:
+  push:
+    branches:
+      - milestone2
+  pull_request:
+     branches:
+     - milestone2
+ 
+jobs:
+  run-script:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+ 
+      - name: Run check_artifact
+        run: .\scripts\check_artifact.cmd
