@@ -1,2 +1,2 @@
-COMP1023 Broken Artifact
+COMP1023 DevOps Artifact
 Milestone 1 update by Tyler Neale
